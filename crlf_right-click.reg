@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\CRLF>LF]
+
+[HKEY_CLASSES_ROOT\*\shell\CRLF>LF\command]
+@="C:\\tools\\crlf\\ToUnix.bat %1"
