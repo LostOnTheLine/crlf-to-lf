@@ -17,7 +17,7 @@ WARNING: It's a simple Registry file, but always read a `.reg` before running, m
 ```bat
 @echo off
 "C:\\Program Files\\Git\\usr\\bin\\dos2unix.exe" "%1" # If Git installed
-# "C:\\tools\\crlf\\bat\\dos2unix.exe" "%1" # Installed manually
+# "C:\\tools\\crlf\\bin\\dos2unix.exe" "%1" # Installed manually
 # pause
 ```
 4. Ideally use double `\\` in your path names, sometimes things called via the system won't work with single `\` but they ALWAYS work with double `\\`
